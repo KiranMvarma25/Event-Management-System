@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+/*                Signup and Login                                      */
+
+.signuplogin{
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.forms{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 325px;
+    margin-bottom: 150px;
+    background-color: rgb(136, 169, 229);
+    color: rgb(22, 24, 25);
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.formInput{
+    width: 100%;
+    padding: 7px;
+    margin-top: 7px;
+    border-radius: 7px;
+    font-size: large;
+}
+
+.formButton{
+    padding: 7px;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.formButton:hover{
+    background-color: rgb(176, 164, 164);
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+/*             Navigation Bar                             */
+
+.navbar{
+    /* margin-top: 10px; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(226, 136, 18);
+}
+
+.navbarChild{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbarChild:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logoutButton{
+    padding: 7px;
+    font-weight: 700;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.logoutButton:hover{
+    background-color: rgb(75, 75, 75);
+}
+
+
+
+
+
+/*                Body                              */
+
+
+.Events{
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.label{
+    font-size: large;
+    font-weight: 700;
+    border-radius: 7px;
+    text-align: center;
+    padding: 3px 0px;
+    margin-top: 10px;
+}
+
+.allEvents{
+    border: 0px solid black;
+    /* margin: 25px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.upcomingEvents{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 215, 225);
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    /* margin-bottom: 100px; */
+}
+
+.eventItems{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.registerButton{
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(24, 207, 146);
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.registerButton:hover{
+    background-color: rgb(3, 233, 156);
+}
+
+
+
+
+
+
+
+
+.createEventForm{
+    border: 2px solid black;
+    width: 325px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(211, 200, 187);
+    font-weight: 700;
+}
+
+.createEventFormInput{
+    width: 100%;
+    margin-top: 7px;
+    padding: 3px;
+    font-weight: 7oo;
+    font-size: large;
+    border-radius: 7px;
+}
+
+.createEventFormLabel{
+    font-size: large;
+}
+
+.createEventFormButton{
+    margin-left: 10px;
+    padding: 7px;
+    cursor: pointer;
+    font-size: medium;
+    background-color: rgb(54, 121, 179);
+    color: white;
+    border-radius: 7px;
+}
+
+.createEventFormButton:hover{
+    background-color: rgb(6, 89, 161);
+}
+
+.list{
+    border: 0px solid black;
+    text-align: center;
+    margin-top: 25px;
+    padding: 7px;
+}
+
+.listData{
+    margin: 10px;
+}
