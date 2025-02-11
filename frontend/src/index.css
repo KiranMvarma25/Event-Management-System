@@ -76,8 +76,11 @@
 .navbarChild{
     color: white;
     text-decoration: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: rgb(145, 86, 10);
+    padding: 7px;
+    border-radius: 7px;
 }
 
 .navbarChild:hover{
