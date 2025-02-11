@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:3600");
+const socket = io("https://event-management-system-backend-dp0l.onrender.com");
 
 function AttendeeList(){
 
