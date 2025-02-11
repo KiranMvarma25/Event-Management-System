@@ -8,7 +8,7 @@ function AttendeeList(){
     const [attendees, setAttendees] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3600/base/getAttendees")
+        fetch("https://event-management-system-backend-dp0l.onrender.com/base/getAttendees")
             .then((res) => res.json())
             .then((data) => setAttendees(data))
             .catch((err) => console.error("Error fetching attendees:", err));

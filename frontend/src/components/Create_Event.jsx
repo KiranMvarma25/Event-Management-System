@@ -28,7 +28,7 @@ function CreateEvents(){
         setLoading(true);
 
         try{
-            const response = await fetch("http://localhost:3600/base/createEvent", {
+            const response = await fetch("https://event-management-system-backend-dp0l.onrender.com/base/createEvent", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ ...data, attendees: 0 })

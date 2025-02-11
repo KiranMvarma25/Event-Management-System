@@ -3,7 +3,7 @@ import io from "socket.io-client";
 
 import { toast } from "react-toastify";
 
-const socket = io("http://localhost:3600");
+const socket = io("https://event-management-system-backend-dp0l.onrender.com");
 
 function Events(){
 
@@ -16,7 +16,7 @@ function Events(){
     useEffect(() => {
         async function getUserId(){
             try{
-                const response = await fetch("http://localhost:3600/base/getUser");
+                const response = await fetch("https://event-management-system-backend-dp0l.onrender.com/base/getUser");
                 const user = await response.json();
 
                 if(user && user._id){
@@ -40,7 +40,7 @@ function Events(){
         async function getData(){
 
             try{
-                const response = await fetch("http://localhost:3600/base/getEvents");
+                const response = await fetch("https://event-management-system-backend-dp0l.onrender.com/base/getEvents");
                 const output = await response.json();
                 setData(output.Events);
             } 
@@ -93,7 +93,7 @@ function Events(){
 
         try{
 
-            const response = await fetch(`http://localhost:3600/base/registerAttendee/${eventId}`, {
+            const response = await fetch(`https://event-management-system-backend-dp0l.onrender.com/base/registerAttendee/${eventId}`, {
                 method : "POST",
                 headers : { "Content-Type": "application/json" },
                 body : JSON.stringify({ userId }) 

@@ -26,7 +26,7 @@ function Signup() {
     e.preventDefault();
 
     try{
-      const response = await fetch("http://localhost:3600/base/signup", {
+      const response = await fetch("https://event-management-system-backend-dp0l.onrender.com/base/signup", {
         method : "POST",
         headers : { "Content-Type": "application/json" },
         // credentials: "include",
